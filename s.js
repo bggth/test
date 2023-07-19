@@ -1,1 +1,1 @@
-<script> document.write(window.location) </script>
+<img src='x' onerror="document.write(JSON.stringify(window.location))">
